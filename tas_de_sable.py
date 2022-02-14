@@ -8,20 +8,26 @@
 ############################################
 
 ###import des modules#####
-import tkinter as tk 
+import tkinter as tk
 
 #####variables globales########
-#je teste la modification 
-#on teste chez hugo 
-#je teste chez karen 
-
+height=500
+width=500
 
 
 
 
 racine=tk.Tk()
 racine.title("tas_de_sable")
+canvas=tk.Canvas(racine,height=height, width=width)
+config_aleatoire=tk.Button(racine, text="Configuration aléatoire")
+
+canvas.pack()
+config_aleatoire.pack()
+
+
 racine.mainloop()
+
 
 
 
